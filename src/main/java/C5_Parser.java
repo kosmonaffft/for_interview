@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class C5_Parser {
 
-    private static final String dn = "CN=Ivanov Ivan Ivanovich,ADDR=Russia, Tatarstan rep., Kazan city, Br. Kasimovykh str.,bld. 45,OU=Development,DC=cbr,DC=ru";
+    private static final String dn = "CN=Иванов Иван Иван оглы,ADDR=350072, Краснодарский кр., г. Краснодар, ул. Солнечная, д. 15 к. 5,OU=Development,DC=magnit,DC=ru";
 
     public static void main(String[] args) {
         List<Map.Entry<String, String>> parsed = parse(dn);
